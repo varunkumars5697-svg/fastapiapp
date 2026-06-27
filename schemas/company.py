@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
-from .job import JobBase
+from .job import JobBase, JobResponse
 
 class CompanyBase(BaseModel):
     name:str
@@ -17,8 +17,8 @@ class CompanyUpdate(CompanyBase):
 
 class CompanyResponse(CompanyBase):
     id:int
-    jobs:list[jobResponse]
+    jobs:list[JobResponse]
    
 
     class Config:
-        from_attributes=True
+        orm_mode=True

@@ -17,7 +17,7 @@ class JobUpdate(JobBase):
     description:Optional[str]=None
     company_id:Optional[int]=None
 
-class JobResponse(jobBase):
+class JobResponse(JobBase):
     id:int
     company_id:int
 
