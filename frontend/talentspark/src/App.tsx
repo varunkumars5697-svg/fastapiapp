@@ -2,6 +2,7 @@ import Welcome from "./components/welcome";
 import NavBar from "./components/NavBar";
 import CompanyCard from "./components/CompanyCard";
 import JobCard from "./components/JobCard";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
     <Welcome />
     <CompanyCard />
     <JobCard />
+    <Footer />
     </>
   );
 }

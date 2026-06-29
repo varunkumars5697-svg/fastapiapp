@@ -15,4 +15,3 @@ dom->document object manipulation
 vitual dom->
 react virtual dom-> copy of original domwhich will update react dom and then updated dom will 
 npm install vite@latest
-node -v
